@@ -230,6 +230,7 @@ let activeTab = "stops";
 let isImageZoomOpen = false;
 let activeFlashcardIndex = 0;
 let isFlashcardRevealed = false;
+let notesSearchQuery = "";
 
 function activeSite() {
   return sites.find((site) => site.id === activeSiteId) ?? sites[0];
@@ -308,6 +309,54 @@ function compactText(text, limit = 260) {
     return clean;
   }
   return `${clean.slice(0, limit).replace(/\s+\S*$/, "")}...`;
+}
+
+function noteSearchText(site, stop, index, content) {
+  return [
+    site.title,
+    site.location,
+    stop,
+    content?.notice,
+    content?.background,
+    content?.script,
+    content?.exam,
+    ...(content?.full?.paragraphs ?? [])
+  ]
+    .filter(Boolean)
+    .join(" ");
+}
+
+function noteSearchEntries() {
+  return sites.flatMap((site) =>
+    site.stops.map((stop, index) => {
+      const content = stopContent(site, index);
+      return {
+        site,
+        stop,
+        stopIndex: index,
+        content,
+        searchText: noteSearchText(site, stop, index, content)
+      };
+    })
+  );
+}
+
+function noteSearchResults(query) {
+  const terms = query
+    .toLowerCase()
+    .split(/\s+/)
+    .map((term) => term.trim())
+    .filter(Boolean);
+
+  const entries = noteSearchEntries().filter((entry) => entry.content);
+  if (!terms.length) {
+    return entries;
+  }
+
+  return entries.filter((entry) => {
+    const haystack = entry.searchText.toLowerCase();
+    return terms.every((term) => haystack.includes(term));
+  });
 }
 
 function buildFlashcards(site) {
@@ -611,6 +660,53 @@ function renderGuideModeView() {
             </div>
           </div>
         </article>
+      </section>
+    </section>
+  `;
+}
+
+function renderNotesView() {
+  const query = notesSearchQuery.trim();
+  const results = noteSearchResults(query);
+  const totalEntries = noteSearchEntries().filter((entry) => entry.content).length;
+
+  return `
+    <section class="tool-view notes-search-view">
+      <div class="tool-header">
+        <div>
+          <p class="eyebrow">Notes</p>
+          <h1>Search the Route</h1>
+          <p>Find names, dates, objects or themes when you remember the detail but not the stop.</p>
+        </div>
+        <div class="tool-counter">${results.length} / ${totalEntries}</div>
+      </div>
+      <section class="search-panel">
+        <label for="notesSearch">Search notes</label>
+        <input id="notesSearch" type="search" value="${escapeHtml(notesSearchQuery)}" placeholder="Try menorah, Claudius, agape, Muslim cemetery..." autocomplete="off" autofocus />
+      </section>
+      <section class="search-results" aria-live="polite">
+        ${
+          results.length
+            ? results
+                .map(({ site, stop, stopIndex, content }) => {
+                  const summary = compactText(
+                    content?.exam || content?.background || content?.script || fallbackNoteText(content),
+                    260
+                  );
+                  return `
+                    <article class="search-result-card">
+                      <div>
+                        <p class="eyebrow">${escapeHtml(site.title)} · Stop ${stopIndex + 1}</p>
+                        <h2>${escapeHtml(stopTitle(stop))}</h2>
+                        <p>${escapeHtml(summary)}</p>
+                      </div>
+                      <button class="secondary-action" data-open-stop="${stopIndex}" data-open-site="${site.id}" type="button">Open</button>
+                    </article>
+                  `;
+                })
+                .join("")
+            : `<article class="empty-search-result"><h2>No matches</h2><p>Try a shorter word, a date, a person, or an object name.</p></article>`
+        }
       </section>
     </section>
   `;
@@ -1008,8 +1104,21 @@ function render() {
     return;
   }
 
+  if (activeView === "notes") {
+    appView.innerHTML = renderNotesView();
+    return;
+  }
+
   renderPlaceholder();
 }
+
+document.addEventListener("input", (event) => {
+  if (event.target.id === "notesSearch") {
+    notesSearchQuery = event.target.value;
+    appView.innerHTML = renderNotesView();
+    document.querySelector("#notesSearch")?.focus();
+  }
+});
 
 document.addEventListener("click", (event) => {
   const toolSiteButton = event.target.closest("[data-tool-site]");

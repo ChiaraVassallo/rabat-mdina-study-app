@@ -781,6 +781,66 @@ details p {
   font-size: 12px;
 }
 
+.search-panel {
+  display: grid;
+  gap: 8px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px;
+  background: #fff;
+}
+
+.search-panel label {
+  color: var(--teal);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.search-panel input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 13px 14px;
+  color: var(--ink);
+  background: #fffaf2;
+  font: inherit;
+}
+
+.search-panel input:focus {
+  outline: 3px solid rgba(180, 122, 45, 0.18);
+  border-color: var(--gold);
+}
+
+.search-results {
+  display: grid;
+  gap: 10px;
+}
+
+.search-result-card,
+.empty-search-result {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px;
+  background: #fff;
+}
+
+.search-result-card h2,
+.empty-search-result h2 {
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+
+.search-result-card p:last-child,
+.empty-search-result p {
+  margin-bottom: 0;
+  color: #34434a;
+  line-height: 1.55;
+}
+
 .flashcard-layout,
 .guide-layout {
   display: grid;
@@ -1146,7 +1206,9 @@ details p {
   }
 
   .tool-header,
-  .panel-heading-row {
+  .panel-heading-row,
+  .search-result-card,
+  .empty-search-result {
     display: grid;
   }
 
