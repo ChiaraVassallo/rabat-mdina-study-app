@@ -1180,22 +1180,114 @@ details p {
     grid-template-columns: 1fr;
   }
 
+  .shell.nav-collapsed .nav-rail {
+    display: none;
+  }
+
+  .sidebar-toggle {
+    top: 10px;
+    right: 10px;
+    padding: 8px 10px;
+  }
+
   .nav-rail {
     position: static;
     height: auto;
+    gap: 12px;
+    padding: 14px 16px 12px;
   }
 
   .workspace {
-    padding: 58px 16px 16px;
+    padding: 18px 12px 16px;
+  }
+
+  .logo-lockup {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    padding-right: 90px;
+  }
+
+  .logo-mark {
+    width: 34px;
+    height: 34px;
+  }
+
+  .logo-lockup strong {
+    font-size: 22px;
+  }
+
+  .logo-lockup span {
+    align-self: center;
+  }
+
+  .main-nav {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    padding-bottom: 3px;
+    scrollbar-width: none;
+  }
+
+  .main-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-item {
+    flex: 0 0 auto;
+    border-radius: 999px;
+    padding: 9px 12px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  blockquote {
+    display: none;
+  }
+
+  .section-heading {
+    margin-bottom: 14px;
+  }
+
+  .section-heading h1,
+  .hero-copy h1,
+  .tool-header h1 {
+    font-size: 30px;
+  }
+
+  .location-grid {
+    gap: 12px;
+  }
+
+  .location-card {
+    border-radius: 10px;
+  }
+
+  .card-image {
+    height: 128px;
   }
 
   .tab-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
     padding: 0 10px;
+    scrollbar-width: none;
+  }
+
+  .tab-bar::-webkit-scrollbar {
+    display: none;
   }
 
   .tab-bar button {
     flex: 0 0 auto;
-    padding-inline: 16px;
+    padding: 13px 16px 11px;
+  }
+
+  .content-panel,
+  .stops-layout {
+    border-radius: 0 0 12px 12px;
+    padding: 14px;
   }
 
   .stop-row {
@@ -1207,7 +1299,7 @@ details p {
   }
 
   .stop-list {
-    grid-template-columns: repeat(auto-fit, minmax(118px, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .location-grid,
@@ -1228,11 +1320,137 @@ details p {
     display: grid;
   }
 
+  .tool-header {
+    padding: 16px;
+  }
+
+  .tool-counter {
+    justify-self: start;
+    padding: 9px 12px;
+  }
+
   .hero-panel {
     grid-template-columns: 1fr;
+    min-height: 0;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .hero-copy {
+    padding: 18px;
   }
 
   .hero-image {
-    min-height: 220px;
+    min-height: 160px;
+    order: -1;
+  }
+
+  .selected-stop-card {
+    border-radius: 10px;
+    padding: 14px;
+  }
+
+  .route-strip {
+    margin-bottom: 14px;
+  }
+
+  .media-viewer img {
+    max-height: 360px;
+  }
+
+  .media-viewer figcaption {
+    display: grid;
+    align-items: stretch;
+  }
+
+  .media-strip {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 8px;
+  }
+
+  .media-strip button {
+    flex: 0 0 78px;
+  }
+
+  .notes-panel {
+    padding-right: 0;
+  }
+
+  details {
+    border-radius: 8px;
+    padding: 13px;
+  }
+
+  details p {
+    font-size: 14px;
+    line-height: 1.62;
+  }
+
+  .search-panel,
+  .search-result-card,
+  .empty-search-result,
+  .prompt-block,
+  .revision-note,
+  .compact-stop-card {
+    border-radius: 8px;
+    padding: 12px;
+  }
+
+  .search-result-card .secondary-action,
+  .compact-stop-card .secondary-action {
+    justify-self: stretch;
+  }
+
+  .flashcard-card {
+    min-height: 360px;
+    padding: 20px;
+  }
+
+  .flashcard-card h2,
+  .guide-prompt h2,
+  .guide-prompt h3 {
+    font-size: 26px;
+  }
+
+  .guide-prompt {
+    padding: 16px;
+  }
+
+  .image-modal {
+    padding: 10px;
+  }
+
+  .image-modal-bar {
+    gap: 8px;
+  }
+
+  .image-modal-actions {
+    justify-content: stretch;
+  }
+
+  .image-modal-actions button {
+    flex: 1 1 90px;
+  }
+
+  .image-modal-stage img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .stop-list {
+    grid-template-columns: 1fr;
+  }
+
+  .tool-actions,
+  .image-modal-actions {
+    display: grid;
+  }
+
+  .primary-action,
+  .secondary-action,
+  .image-modal-actions button {
+    width: 100%;
   }
 }
