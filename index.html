@@ -8,20 +8,21 @@
   </head>
   <body>
     <main class="shell">
-      <button class="sidebar-toggle" type="button" data-sidebar-toggle>Hide menu</button>
       <aside class="nav-rail" aria-label="Guide Study navigation">
-        <div class="logo-lockup">
-          <div class="logo-mark">GS</div>
-          <strong>Guide</strong>
-          <span>Study</span>
-        </div>
+        <button class="sidebar-toggle" type="button" data-sidebar-toggle aria-label="Collapse menu" aria-expanded="true">
+          <span class="logo-mark">GS</span>
+          <span class="toggle-copy">
+            <strong>Guide</strong>
+            <span>Study</span>
+          </span>
+        </button>
 
         <nav class="main-nav" aria-label="Study sections">
-          <button class="nav-item active" type="button" data-view="home">Home</button>
-          <button class="nav-item" type="button" data-view="flashcards">Flashcards</button>
-          <button class="nav-item" type="button" data-view="study">Study Mode</button>
-          <button class="nav-item" type="button" data-view="guide">Guide Mode</button>
-          <button class="nav-item" type="button" data-view="notes">Notes</button>
+          <button class="nav-item active" type="button" data-view="home" data-short="H">Home</button>
+          <button class="nav-item" type="button" data-view="flashcards" data-short="F">Flashcards</button>
+          <button class="nav-item" type="button" data-view="study" data-short="S">Study Mode</button>
+          <button class="nav-item" type="button" data-view="guide" data-short="G">Guide Mode</button>
+          <button class="nav-item" type="button" data-view="notes" data-short="N">Notes</button>
         </nav>
 
         <blockquote>

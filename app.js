@@ -317,7 +317,8 @@ function compactText(text, limit = 260) {
 function updateSidebarState() {
   shell?.classList.toggle("nav-collapsed", isSidebarCollapsed);
   if (sidebarToggle) {
-    sidebarToggle.textContent = isSidebarCollapsed ? "Show menu" : "Hide menu";
+    sidebarToggle.setAttribute("aria-label", isSidebarCollapsed ? "Expand menu" : "Collapse menu");
+    sidebarToggle.setAttribute("aria-expanded", String(!isSidebarCollapsed));
   }
 }
 
