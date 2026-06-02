@@ -212,10 +212,13 @@ button {
 
 .shell.nav-collapsed .nav-item {
   display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
   place-items: center;
   width: 46px;
   height: 46px;
   padding: 0;
+  text-align: center;
 }
 
 .shell.nav-collapsed .nav-label {
@@ -1359,6 +1362,9 @@ details p {
   }
 
   .shell.nav-collapsed .nav-item {
+    grid-template-columns: 1fr;
+    gap: 0;
+    place-items: center;
     width: 38px;
     height: 38px;
     border-radius: 50%;
