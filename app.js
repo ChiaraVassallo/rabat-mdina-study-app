@@ -134,6 +134,8 @@ const sites = [
 
 const appView = document.querySelector("#appView");
 const navItems = document.querySelectorAll(".nav-item");
+const shell = document.querySelector(".shell");
+const sidebarToggle = document.querySelector("[data-sidebar-toggle]");
 
 const mediaFolders = {
   wignacourt: "media/wignacourt",
@@ -231,6 +233,7 @@ let isImageZoomOpen = false;
 let activeFlashcardIndex = 0;
 let isFlashcardRevealed = false;
 let notesSearchQuery = "";
+let isSidebarCollapsed = false;
 
 function activeSite() {
   return sites.find((site) => site.id === activeSiteId) ?? sites[0];
@@ -309,6 +312,13 @@ function compactText(text, limit = 260) {
     return clean;
   }
   return `${clean.slice(0, limit).replace(/\s+\S*$/, "")}...`;
+}
+
+function updateSidebarState() {
+  shell?.classList.toggle("nav-collapsed", isSidebarCollapsed);
+  if (sidebarToggle) {
+    sidebarToggle.textContent = isSidebarCollapsed ? "Show menu" : "Hide menu";
+  }
 }
 
 function noteSearchText(site, stop, index, content) {
@@ -678,38 +688,50 @@ function renderNotesView() {
           <h1>Search the Route</h1>
           <p>Find names, dates, objects or themes when you remember the detail but not the stop.</p>
         </div>
-        <div class="tool-counter">${results.length} / ${totalEntries}</div>
+        <div class="tool-counter" data-notes-counter>${results.length} / ${totalEntries}</div>
       </div>
       <section class="search-panel">
         <label for="notesSearch">Search notes</label>
         <input id="notesSearch" type="search" value="${escapeHtml(notesSearchQuery)}" placeholder="Try menorah, Claudius, agape, Muslim cemetery..." autocomplete="off" autofocus />
       </section>
-      <section class="search-results" aria-live="polite">
-        ${
-          results.length
-            ? results
-                .map(({ site, stop, stopIndex, content }) => {
-                  const summary = compactText(
-                    content?.exam || content?.background || content?.script || fallbackNoteText(content),
-                    260
-                  );
-                  return `
-                    <article class="search-result-card">
-                      <div>
-                        <p class="eyebrow">${escapeHtml(site.title)} · Stop ${stopIndex + 1}</p>
-                        <h2>${escapeHtml(stopTitle(stop))}</h2>
-                        <p>${escapeHtml(summary)}</p>
-                      </div>
-                      <button class="secondary-action" data-open-stop="${stopIndex}" data-open-site="${site.id}" type="button">Open</button>
-                    </article>
-                  `;
-                })
-                .join("")
-            : `<article class="empty-search-result"><h2>No matches</h2><p>Try a shorter word, a date, a person, or an object name.</p></article>`
-        }
-      </section>
+      <section class="search-results" aria-live="polite">${renderNoteSearchResults(results)}</section>
     </section>
   `;
+}
+
+function renderNoteSearchResults(results) {
+  return results.length
+    ? results
+        .map(({ site, stop, stopIndex, content }) => {
+          const summary = compactText(content?.exam || content?.background || content?.script || fallbackNoteText(content), 260);
+          return `
+            <article class="search-result-card">
+              <div>
+                <p class="eyebrow">${escapeHtml(site.title)} - Stop ${stopIndex + 1}</p>
+                <h2>${escapeHtml(stopTitle(stop))}</h2>
+                <p>${escapeHtml(summary)}</p>
+              </div>
+              <button class="secondary-action" data-open-stop="${stopIndex}" data-open-site="${site.id}" type="button">Open</button>
+            </article>
+          `;
+        })
+        .join("")
+    : `<article class="empty-search-result"><h2>No matches</h2><p>Try a shorter word, a date, a person, or an object name.</p></article>`;
+}
+
+function updateNotesSearchResults() {
+  const results = noteSearchResults(notesSearchQuery.trim());
+  const totalEntries = noteSearchEntries().filter((entry) => entry.content).length;
+  const resultsPanel = document.querySelector(".search-results");
+  const counter = document.querySelector("[data-notes-counter]");
+
+  if (resultsPanel) {
+    resultsPanel.innerHTML = renderNoteSearchResults(results);
+  }
+
+  if (counter) {
+    counter.textContent = `${results.length} / ${totalEntries}`;
+  }
 }
 
 function stopImages(site, index) {
@@ -850,7 +872,12 @@ function renderImageZoom(site) {
     <div class="image-modal" role="dialog" aria-modal="true" aria-label="Zoomed image">
       <div class="image-modal-bar">
         <strong>${stopTitle(site.stops[activeStopIndex])}</strong>
-        <button data-close-zoom type="button">Close</button>
+        <span data-zoom-counter>Image ${safeImageIndex + 1} of ${images.length}</span>
+        <div class="image-modal-actions">
+          <button data-zoom-prev type="button">Previous</button>
+          <button data-zoom-next type="button">Next</button>
+          <button data-close-zoom type="button">Close</button>
+        </div>
       </div>
       <div class="image-modal-stage">
         <img src="${image}" data-candidates="${images.join("|")}" data-candidate-index="${safeImageIndex}" onerror="window.tryNextStudyImage(this)" alt="${site.title} stop ${activeStopIndex + 1} enlarged image ${safeImageIndex + 1}" />
@@ -872,6 +899,7 @@ function updateSelectedStopImage() {
   const altText = `${site.title} stop ${activeStopIndex + 1} image ${safeImageIndex + 1}`;
   const mainImage = document.querySelector(".media-viewer img");
   const imageCounter = document.querySelector(".media-viewer figcaption span");
+  const zoomCounter = document.querySelector("[data-zoom-counter]");
 
   if (mainImage) {
     mainImage.onerror = () => window.tryNextStudyImage(mainImage);
@@ -883,6 +911,10 @@ function updateSelectedStopImage() {
 
   if (imageCounter) {
     imageCounter.textContent = `Image ${safeImageIndex + 1} of ${images.length}`;
+  }
+
+  if (zoomCounter) {
+    zoomCounter.textContent = `Image ${safeImageIndex + 1} of ${images.length}`;
   }
 
   document.querySelectorAll("[data-image]").forEach((button) => {
@@ -910,6 +942,16 @@ function openImageZoom() {
 function closeImageZoom() {
   isImageZoomOpen = false;
   document.querySelector(".image-modal")?.remove();
+}
+
+function changeZoomImage(step) {
+  const images = stopImages(activeSite(), activeStopIndex);
+  if (!images.length) {
+    return;
+  }
+
+  activeImageIndex = (activeImageIndex + step + images.length) % images.length;
+  updateSelectedStopImage();
 }
 
 function renderStopDetails(site) {
@@ -1115,8 +1157,7 @@ function render() {
 document.addEventListener("input", (event) => {
   if (event.target.id === "notesSearch") {
     notesSearchQuery = event.target.value;
-    appView.innerHTML = renderNotesView();
-    document.querySelector("#notesSearch")?.focus();
+    updateNotesSearchResults();
   }
 });
 
@@ -1130,6 +1171,12 @@ document.addEventListener("click", (event) => {
   const siteButton = event.target.closest("[data-site]");
   const stopButton = event.target.closest("[data-stop]");
   const tabButton = event.target.closest("[data-tab]");
+
+  if (event.target.closest("[data-sidebar-toggle]")) {
+    isSidebarCollapsed = !isSidebarCollapsed;
+    updateSidebarState();
+    return;
+  }
 
   if (event.target.closest("[data-home]")) {
     setView("home");
@@ -1229,6 +1276,16 @@ document.addEventListener("click", (event) => {
     return;
   }
 
+  if (event.target.closest("[data-zoom-prev]")) {
+    changeZoomImage(-1);
+    return;
+  }
+
+  if (event.target.closest("[data-zoom-next]")) {
+    changeZoomImage(1);
+    return;
+  }
+
   if (event.target.closest("[data-close-zoom]")) {
     closeImageZoom();
     return;
@@ -1241,6 +1298,7 @@ document.addEventListener("click", (event) => {
 });
 
 navItems.forEach((item) => item.addEventListener("click", () => setView(item.dataset.view)));
+updateSidebarState();
 
 window.tryNextStudyImage = (image) => {
   const candidates = image.dataset.candidates?.split("|") ?? [];
