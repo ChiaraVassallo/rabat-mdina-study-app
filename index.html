@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rabat & Mdina Guide Study</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <aside class="nav-rail" aria-label="Guide Study navigation">
+        <div class="logo-lockup">
+          <div class="logo-mark">GS</div>
+          <strong>Guide</strong>
+          <span>Study</span>
+        </div>
+
+        <nav class="main-nav" aria-label="Study sections">
+          <button class="nav-item active" type="button" data-view="home">Home</button>
+          <button class="nav-item" type="button" data-view="locations">Locations</button>
+          <button class="nav-item" type="button" data-view="flashcards">Flashcards</button>
+          <button class="nav-item" type="button" data-view="study">Study Mode</button>
+          <button class="nav-item" type="button" data-view="guide">Guide Mode</button>
+          <button class="nav-item" type="button" data-view="notes">Notes</button>
+        </nav>
+
+        <section class="streak-card" aria-label="Revision streak">
+          <span>Revision streak</span>
+          <strong>12 days</strong>
+        </section>
+
+        <blockquote>
+          A good guide shows the place. A great guide brings it to life.
+        </blockquote>
+      </aside>
+
+      <section class="workspace" id="appView" aria-live="polite"></section>
+    </main>
+
+    <script src="domus-data.js"></script>
+    <script src="catacombs-data.js"></script>
+    <script src="catacombs-summaries.js"></script>
+    <script src="wignacourt-data.js"></script>
+    <script src="wignacourt-summaries.js"></script>
+    <script src="media-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

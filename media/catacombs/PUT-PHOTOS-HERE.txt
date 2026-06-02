@@ -1,0 +1,10 @@
+Add St Paul's Catacombs photos here.
+
+Use the same naming pattern as the other sites:
+
+1.1.jpg
+1.2.jpg
+2.1.jpg
+2.2.jpg
+
+The first number is the stop number. The second number is the image order within that stop.
