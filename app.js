@@ -127,7 +127,8 @@ const sites = [
       "Chapel of the Holy Crucifix",
       "Chapel of St Publius",
       "Chapel of St Cajetan",
-      "Chapel of St Luke"
+      "Chapel of St Luke",
+      "Fast revision cheat sheet"
     ]
   }
 ];
@@ -143,6 +144,661 @@ const mediaFolders = {
   domus: "media/domus-romana",
   streets: "media/streets-mdina",
   cathedral: "media/cathedral-mdina"
+};
+
+const keyFactsData = {
+  "sections": [
+    {
+      "title": "St Paul’s Cathedral",
+      "dates": [
+        {
+          "term": "AD 60",
+          "detail": "St Paul shipwrecked in Malta; traditional foundation story of Christianity in Malta."
+        },
+        {
+          "term": "1299",
+          "detail": "first secure reference to a cathedral dedicated to St Paul in Mdina."
+        },
+        {
+          "term": "1429",
+          "detail": "legendary Saracen/Moorish raid on Mdina; St Paul said to have appeared with a sword."
+        },
+        {
+          "term": "1530",
+          "detail": "Charles V grants Malta to the Knights of St John."
+        },
+        {
+          "term": "1679/1680",
+          "detail": "Gafà’s choir extension; choir stalls partly from this period, with some 15th-century survivals."
+        },
+        {
+          "term": "1689",
+          "detail": "Preti’s Shipwreck of St Paul, paid for by Canon Antonio Testaferrata."
+        },
+        {
+          "term": "11 January 1693",
+          "detail": "major Sicily earthquake/seaquake; cathedral badly damaged."
+        },
+        {
+          "term": "1697–1703",
+          "detail": "rebuilding of present Baroque cathedral."
+        },
+        {
+          "term": "16 February 1702",
+          "detail": "death of Lorenzo Gafà before completion."
+        },
+        {
+          "term": "1703",
+          "detail": "cathedral completed."
+        },
+        {
+          "term": "1816",
+          "detail": "St John’s becomes Co-Cathedral."
+        },
+        {
+          "term": "1864",
+          "detail": "Gozo becomes a separate diocese."
+        },
+        {
+          "term": "1954",
+          "detail": "Caffaro Rore’s Glory of St Peter and St Paul replaces damaged Manno dome painting."
+        },
+        {
+          "term": "1969",
+          "detail": "Old Seminary inaugurated as Cathedral Museum; not part of cathedral exam except as context."
+        }
+      ],
+      "figures": [
+        {
+          "term": "Lorenzo Gafà",
+          "detail": "architect of the Baroque cathedral; designed earlier choir extension."
+        },
+        {
+          "term": "Mattia Preti",
+          "detail": "major Baroque artist; works and designs connected with chancel/Pauline cycle; often with bottega/workshop."
+        },
+        {
+          "term": "Antonio, Vincenzo and Francesco Manno",
+          "detail": "Sicilian brothers who painted the nave/vault episodes from St Paul’s life."
+        },
+        {
+          "term": "Mario Caffaro Rore",
+          "detail": "Turin artist of the 1954 Glory of St Peter and St Paul."
+        },
+        {
+          "term": "Canon Antonio Testaferrata",
+          "detail": "paid for Preti’s Shipwreck of St Paul."
+        },
+        {
+          "term": "Bishop Cocco Palmieri",
+          "detail": "bishop at inauguration; first bishop independent from Sicily in your lecture notes."
+        },
+        {
+          "term": "Pope Clement XI",
+          "detail": "coat of arms with star in chancel context."
+        },
+        {
+          "term": "Grand Master Ramon Perellos",
+          "detail": "contributed to cathedral; coat of arms on facade; St John the Baptist lunette link."
+        },
+        {
+          "term": "Bishop Paul Alpheran de Bussan",
+          "detail": "seminary/museum context and tombstone; keep museum details brief."
+        },
+        {
+          "term": "Bishop Vincenzo Labini",
+          "detail": "important bishop who lived through Knights, French and British periods."
+        },
+        {
+          "term": "Giuseppe Valenti",
+          "detail": "St Publius monument; Queen Victoria statue; St Luke and St John statues near altar."
+        },
+        {
+          "term": "Francesco Zahra",
+          "detail": "Maltese artist; Chapter Hall paintings and Altar of Repose/design connections."
+        },
+        {
+          "term": "Claudio Durante",
+          "detail": "executed the Holy Crucifix chapel marble floor design."
+        },
+        {
+          "term": "Archbishop Michael Gonzi",
+          "detail": "wartime/church-state figure; tomb/monument context."
+        },
+        {
+          "term": "Archbishop Giuseppe Mercieca",
+          "detail": "only marble tomb tablet in Maltese; last person buried in cathedral."
+        },
+        {
+          "term": "Gerald and Mabel Strickland",
+          "detail": "buried in St Cajetan chapel; Mabel noted as only female buried in cathedral."
+        },
+        {
+          "term": "Cardinal Fabrizio Sciberras Testaferrata",
+          "detail": "first Maltese cardinal; monument in St Cajetan chapel."
+        }
+      ]
+    },
+    {
+      "title": "Wignacourt Museum",
+      "dates": [
+        {
+          "term": "60 CE",
+          "detail": "Traditional date of St Paul’s shipwreck and stay in Malta."
+        },
+        {
+          "term": "Acts 27–28",
+          "detail": "Biblical source for St Paul’s journey, shipwreck and stay in Malta."
+        },
+        {
+          "term": "14th century",
+          "detail": "First known mention of the Grotto being used for cult/devotional purposes."
+        },
+        {
+          "term": "1598 / around 1600",
+          "detail": "Juan Benegas de Cordoba comes to Malta / becomes linked with the Grotto. Safer to say around 1600."
+        },
+        {
+          "term": "1607",
+          "detail": "Juan Benegas acquires the Grotto complex."
+        },
+        {
+          "term": "1610",
+          "detail": "Grotto separated from Rabat Parish Church and entrusted to Benegas."
+        },
+        {
+          "term": "1617",
+          "detail": "Site passes to the Order of St John; Wignacourt’s Collegio develops."
+        },
+        {
+          "term": "10 February",
+          "detail": "Feast of St Paul; also the date Wignacourt became Grand Master, which strengthened his devotion to the project."
+        },
+        {
+          "term": "1744",
+          "detail": "Statue of St Paul in the Grotto donated by Grand Master Pinto."
+        },
+        {
+          "term": "1748",
+          "detail": "Private chapel built under Grand Master Pinto."
+        },
+        {
+          "term": "1753",
+          "detail": "Sicilian organ by Annibal Lo Bianco; also Blessed Sacrament side chapel date in St Publius Chapel context."
+        },
+        {
+          "term": "1754",
+          "detail": "Altar of St Trophimus by Gaetano Fabri."
+        },
+        {
+          "term": "1798",
+          "detail": "Knights leave Malta; building later changes use."
+        },
+        {
+          "term": "World War I",
+          "detail": "Used as infirmary / hospital."
+        },
+        {
+          "term": "World War II",
+          "detail": "Used as shelter-related space and bakery/victory kitchen."
+        },
+        {
+          "term": "1960",
+          "detail": "Silver vessel in Grotto commemorates 1900th anniversary of shipwreck."
+        },
+        {
+          "term": "1961",
+          "detail": "Transferred back to the Church."
+        },
+        {
+          "term": "1981",
+          "detail": "Opened as a museum."
+        }
+      ],
+      "figures": [
+        {
+          "term": "St Paul",
+          "detail": "Central figure; shipwreck, Grotto, Maltese Christian identity."
+        },
+        {
+          "term": "St Luke",
+          "detail": "Writer of Acts; linked to the shipwreck narrative; symbol is the ox."
+        },
+        {
+          "term": "St Trophimus",
+          "detail": "Follower/companion of St Paul; local tradition connects him to Malta, though uncertain."
+        },
+        {
+          "term": "Alof de Wignacourt",
+          "detail": "Grand Master; founder/supporter of the Collegio and major patron of the Pauline cult."
+        },
+        {
+          "term": "Juan Benegas de Cordoba",
+          "detail": "Spanish noble/hermit; revived devotion to the Grotto; first rector of the Collegio."
+        },
+        {
+          "term": "Pope Paul V / Camillo Borghese",
+          "detail": "Supported Benegas; gave indulgences and relics."
+        },
+        {
+          "term": "Francesco Buonamici",
+          "detail": "Architect linked with refurbishment/Baroque development of the Collegio."
+        },
+        {
+          "term": "Lorenzo Gafa",
+          "detail": "Architect linked with staircase / connection between Collegio and Grotto."
+        },
+        {
+          "term": "Melchiorre Gafa",
+          "detail": "Maltese sculptor; began statue of St Paul in crypt."
+        },
+        {
+          "term": "Ercole Ferrata",
+          "detail": "Completed Gafa’s St Paul statue after Gafa’s death."
+        },
+        {
+          "term": "Pietro Pappaleo",
+          "detail": "Made original wooden statue of St Luke."
+        },
+        {
+          "term": "Gaetano Fabri",
+          "detail": "Made altar of St Trophimus, 1754."
+        },
+        {
+          "term": "Grand Master Pinto de Fonseca",
+          "detail": "Donated St Paul statue in Grotto; linked to chapel and vestments."
+        },
+        {
+          "term": "Grand Master Nicolas Cotoner",
+          "detail": "Coat of arms near St Luke altar; supported Grotto development."
+        },
+        {
+          "term": "Notary Francesco Catania",
+          "detail": "Major donor/collector; large part of museum collection came from him."
+        },
+        {
+          "term": "Cosmana Navarra",
+          "detail": "Female patron; donated to Church of St Paul; portrait and death mask."
+        },
+        {
+          "term": "Blessed Gerard",
+          "detail": "Founder of the Order of St John."
+        },
+        {
+          "term": "Raymond du Puy",
+          "detail": "Helped formalise/militarise the Order."
+        },
+        {
+          "term": "Fabio Chigi / Pope Alexander VII",
+          "detail": "Important visitor to Grotto; left shoes/token of devotion."
+        },
+        {
+          "term": "Mattia Preti",
+          "detail": "Major Baroque painter in Malta; Our Lady of Sorrows."
+        },
+        {
+          "term": "Antoine Favray",
+          "detail": "18th-century artist active in Malta."
+        },
+        {
+          "term": "Francesco Zahra",
+          "detail": "Important Maltese artist; works in the museum/church context."
+        },
+        {
+          "term": "Stefano Erardi",
+          "detail": "Maltese artist; more classical style."
+        },
+        {
+          "term": "Giuseppe Cali",
+          "detail": "“Devil of the brush”; important for 19th-century art."
+        },
+        {
+          "term": "Giuseppe Hyzler / Vincenzo Hyzler",
+          "detail": "Linked to Nazarene influence."
+        },
+        {
+          "term": "Luis Borassa",
+          "detail": "Catalan painter linked to the St Paul Polyptych in your notes, but double-check because your compilation also gives a later date for the polyptych."
+        }
+      ]
+    },
+    {
+      "title": "Domus Romana",
+      "dates": [
+        {
+          "term": "218 BCE",
+          "detail": "Roman conquest of Malta during the Second Punic War."
+        },
+        {
+          "term": "1st century BCE – 2nd century CE",
+          "detail": "Main use of the Domus by elite/aristocratic families."
+        },
+        {
+          "term": "4th–5th century CE",
+          "detail": "Claudius note in your compilation has an error: Emperor Claudius ruled earlier, 41–54 CE."
+        },
+        {
+          "term": "41–54 CE",
+          "detail": "Correct reign of Emperor Claudius."
+        },
+        {
+          "term": "500–870 CE",
+          "detail": "Byzantine period in Malta, often difficult because of limited evidence."
+        },
+        {
+          "term": "870 CE",
+          "detail": "Arab conquest of Malta."
+        },
+        {
+          "term": "870–1091 CE",
+          "detail": "Arab/Muslim period in Malta, officially."
+        },
+        {
+          "term": "1091 CE",
+          "detail": "Norman conquest of Malta."
+        },
+        {
+          "term": "1127 CE",
+          "detail": "Muslim non-slaves exiled / end of stronger Muslim presence according to notes."
+        },
+        {
+          "term": "11th century CE",
+          "detail": "Muslim cemetery at Domus area."
+        },
+        {
+          "term": "1881 / 1881–1882",
+          "detail": "Discovery of Domus Romana during street works/tree planting."
+        },
+        {
+          "term": "1899",
+          "detail": "Road to old railway station cut through Roman remains and possibly Islamic burials."
+        },
+        {
+          "term": "1925",
+          "detail": "Back part of museum structure built."
+        },
+        {
+          "term": "World War II",
+          "detail": "Site closed; used as laboratory/restoration/storage centre."
+        },
+        {
+          "term": "1945",
+          "detail": "Reopened after the war."
+        },
+        {
+          "term": "2005",
+          "detail": "Inaugurated as the Domvs Romana."
+        }
+      ],
+      "figures": [
+        {
+          "term": "A. A. Caruana / Annetto Caruana",
+          "detail": "Discovered/excavated site first; made early plans."
+        },
+        {
+          "term": "Sir Themistocles Zammit / Temi Zammit",
+          "detail": "Documented excavations in more detail; important Maltese archaeologist."
+        },
+        {
+          "term": "Anthony Spiteri",
+          "detail": "Curator connected to modern history of site."
+        },
+        {
+          "term": "Lina Spiteri",
+          "detail": "Anthony Spiteri’s daughter; personal story/video about living at the site."
+        },
+        {
+          "term": "Astarte / Ashtart",
+          "detail": "Possible identification of fertility/motherhood statue; Punic influence."
+        },
+        {
+          "term": "Isis",
+          "detail": "Alternative identification of the same/similar statue; Egyptian influence."
+        },
+        {
+          "term": "Fortuna / Juno",
+          "detail": "Other possible Romanised interpretations of goddess figure."
+        },
+        {
+          "term": "Emperor Claudius",
+          "detail": "Statue/display; Roman imperial family connection; ruled 41–54 CE."
+        },
+        {
+          "term": "Claudia Antonia",
+          "detail": "Daughter of Claudius; statue mentioned in notes."
+        },
+        {
+          "term": "Agrippina the Younger",
+          "detail": "Claudius’ fourth wife; mother of Nero; linked to imperial family statues."
+        },
+        {
+          "term": "Messalina",
+          "detail": "Claudius’ famous third wife."
+        },
+        {
+          "term": "Britannicus",
+          "detail": "Son of Claudius, named after conquest of Britain."
+        },
+        {
+          "term": "Nero",
+          "detail": "Agrippina’s son; adopted by Claudius; later emperor."
+        },
+        {
+          "term": "Sosos of Pergamon",
+          "detail": "Artist/design source for the “drinking doves” mosaic motif."
+        },
+        {
+          "term": "Charon",
+          "detail": "Mythological ferryman paid with coin placed with the dead."
+        },
+        {
+          "term": "Al-Himyari",
+          "detail": "Later Arab writer; wrote much later, so use cautiously."
+        },
+        {
+          "term": "Al-Bakri",
+          "detail": "Earlier source copied/used by Al-Himyari."
+        },
+        {
+          "term": "Maymunah",
+          "detail": "Connected to famous Maymunah Stone; not from the Domus itself but useful comparison."
+        },
+        {
+          "term": "Daniel Cilia",
+          "detail": "Photographer/writer mentioned in relation to Mdina statue tradition."
+        },
+        {
+          "term": "A. Bonanno",
+          "detail": "Scholar who suggested the house may have belonged to someone politically powerful."
+        }
+      ]
+    },
+    {
+      "title": "St Paul’s Catacombs",
+      "dates": [
+        {
+          "term": "218 BCE",
+          "detail": "Roman rule in Malta begins after Second Punic War."
+        },
+        {
+          "term": "4th–3rd century BCE",
+          "detail": "Earlier quarrying / Phoenician-Punic shaft-and-chamber tomb phase."
+        },
+        {
+          "term": "1st–2nd century CE",
+          "detail": "Tomb linked to “Elsa” discovery; also cremation/amphora evidence."
+        },
+        {
+          "term": "4th–8th centuries CE",
+          "detail": "Main construction/use of catacombs."
+        },
+        {
+          "term": "8th/9th century CE",
+          "detail": "End/decline of catacomb burial use."
+        },
+        {
+          "term": "13th century",
+          "detail": "Reuse/re-Christianisation; rock-cut church/crypt use."
+        },
+        {
+          "term": "1575",
+          "detail": "Birth of Antonio Bosio."
+        },
+        {
+          "term": "1610",
+          "detail": "Marc Antonio Axiaq gives early written description of Malta’s catacombs."
+        },
+        {
+          "term": "1647",
+          "detail": "Francesco Abela publishes Descrittione di Malta."
+        },
+        {
+          "term": "1816",
+          "detail": "Onorato Bres publishes Malta Antica Illustrata."
+        },
+        {
+          "term": "1838",
+          "detail": "G. P. Badger publishes Description of Malta and Gozo."
+        },
+        {
+          "term": "1886",
+          "detail": "Achille Ferris interprets catacombs through martyrdom/persecution ideas."
+        },
+        {
+          "term": "1894",
+          "detail": "A. A. Caruana cleans, surveys and studies St Paul’s Catacombs."
+        },
+        {
+          "term": "1901",
+          "detail": "Albert Mayr publishes work that increases foreign scholarly interest."
+        },
+        {
+          "term": "1986",
+          "detail": "Mario Buhagiar publishes major work on Maltese catacombs."
+        },
+        {
+          "term": "2013",
+          "detail": "“Elsa” skeleton found during Visitor Centre works using GPR."
+        },
+        {
+          "term": "692 CE",
+          "detail": "Funerary meal/refrigerium officially abolished in church context."
+        },
+        {
+          "term": "World War II",
+          "detail": "Catacombs reused as air-raid shelters."
+        }
+      ],
+      "figures": [
+        {
+          "term": "Antonio Bosio",
+          "detail": "Maltese scholar known as the “Christopher Columbus of the catacombs”; studied Roman catacombs."
+        },
+        {
+          "term": "A. A. Caruana / Antonio Annetto Caruana",
+          "detail": "Cleaned, surveyed and studied St Paul’s Catacombs in 1894."
+        },
+        {
+          "term": "Marc Antonio Axiaq",
+          "detail": "First known literary documentation of Malta’s catacombs, around 1610."
+        },
+        {
+          "term": "Francesco Abela",
+          "detail": "1647 description; distinguished pagan and Christian hypogea."
+        },
+        {
+          "term": "Jean Houel",
+          "detail": "Artist/dignitary taken through the tunnels by Abela."
+        },
+        {
+          "term": "Onorato Bres",
+          "detail": "Published Malta Antica Illustrata in 1816."
+        },
+        {
+          "term": "G. P. Badger",
+          "detail": "Published Description of Malta and Gozo in 1838."
+        },
+        {
+          "term": "Achille Ferris",
+          "detail": "Interpreted catacombs as evidence of martyrs."
+        },
+        {
+          "term": "Giovanni Gatt",
+          "detail": "Rector of St Paul’s Grotto; influenced martyr interpretation."
+        },
+        {
+          "term": "Cesare Vassallo",
+          "detail": "Librarian/keeper of antiquities; influenced later study."
+        },
+        {
+          "term": "Albert Mayr",
+          "detail": "German scholar who studied Maltese catacombs."
+        },
+        {
+          "term": "Eric Becka",
+          "detail": "Name in transcript unclear; German scholar linked with Christian/Jewish catacomb study. Keep cautious."
+        },
+        {
+          "term": "Sir Themistocles Zammit",
+          "detail": "Maltese archaeology pioneer; excavated many tombs."
+        },
+        {
+          "term": "Mario Buhagiar",
+          "detail": "Major modern scholar of Maltese catacombs."
+        },
+        {
+          "term": "Elsa",
+          "detail": "Nickname of reconstructed female skeleton found in 2013."
+        },
+        {
+          "term": "Fufi/Fufia Galena",
+          "detail": "One of the rare named individuals from inscription evidence."
+        },
+        {
+          "term": "Custus/Custodius Adienus",
+          "detail": "Husband linked to same inscription."
+        },
+        {
+          "term": "Valeria",
+          "detail": "Named deceased person described as “well-deserving”."
+        },
+        {
+          "term": "Charon",
+          "detail": "Ferryman of the dead; coin placed for passage to underworld."
+        },
+        {
+          "term": "Fossores",
+          "detail": "Gravediggers/tomb cutters; important technical term."
+        },
+        {
+          "term": "Gerousiarch",
+          "detail": "Head of a Jewish Council of Elders, mentioned in Hypogeum 13."
+        },
+        {
+          "term": "Eulogia",
+          "detail": "Wife of the gerousiarch; title presbytera, meaning elder."
+        }
+      ]
+    }
+  ],
+  "panic": [
+    {
+      "term": "Cathedral, remember",
+      "detail": "AD 60, 1299, 1429, 1689, 1693, 1697-1703, 1954 ? and the people Lorenzo Gaf?, Mattia Preti, Manno brothers, Caffaro Rore, Antonio Testaferrata, Cocco Palmieri, Perellos, Giuseppe Valenti."
+    },
+    {
+      "term": "Wignacourt, remember",
+      "detail": "60 CE, 1607, 1617, 1744, 1748, 1981 — and the people St Paul, Wignacourt, Juan Benegas, Pope Paul V, Francesco Catania, Cosmana Navarra, Pinto, Melchiorre Gafa, Mattia Preti."
+    },
+    {
+      "term": "Domus, remember",
+      "detail": "218 BCE, 1st BCE–2nd CE, 870, 1091, 1881, 2005 — and the people A. A. Caruana, Temi Zammit, Claudius, Agrippina, Nero, Sosos, Al-Himyari, Al-Bakri."
+    },
+    {
+      "term": "Catacombs, remember",
+      "detail": "4th–8th CE, 13th century, 1610, 1647, 1894, 2013 — and the people Antonio Bosio, A. A. Caruana, Francesco Abela, Marc Antonio Axiaq, Mario Buhagiar, Elsa, Charon, Fossores."
+    }
+  ]
 };
 
 // Edit notes here. Each key is a location id, then a zero-based stop number.
@@ -229,6 +885,7 @@ let activeSiteId = "streets";
 let activeStopIndex = 0;
 let activeImageIndex = 0;
 let activeTab = "stops";
+let activeKeyFactsIndex = 0;
 let isImageZoomOpen = false;
 let activeFlashcardIndex = 0;
 let isFlashcardRevealed = false;
@@ -255,13 +912,15 @@ function stopTitle(stop) {
 function stopContent(site, index) {
   const externalSummaries = {
     catacombs: window.catacombsSummaries,
-    wignacourt: window.wignacourtSummaries
+    wignacourt: window.wignacourtSummaries,
+    cathedral: window.cathedralSummaries
   };
   const summary = stopNotes[site.id]?.[index] ?? externalSummaries[site.id]?.[index];
   const fullNotes = {
     catacombs: window.catacombsFullNotes,
     domus: window.domusFullNotes,
-    wignacourt: window.wignacourtFullNotes
+    wignacourt: window.wignacourtFullNotes,
+    cathedral: window.cathedralFullNotes
   };
   const full = fullNotes[site.id]?.stops?.[index] ?? null;
   if (!summary && !full) {
@@ -735,6 +1394,111 @@ function updateNotesSearchResults() {
   }
 }
 
+function keyFactsStats() {
+  return keyFactsData.sections.reduce(
+    (totals, section) => {
+      totals.dates += section.dates.length;
+      totals.figures += section.figures.length;
+      return totals;
+    },
+    { dates: 0, figures: 0 }
+  );
+}
+
+function renderKeyFactsList(items, emptyText) {
+  return items
+    .length
+    ? items
+        .map(
+          (item) => `
+        <article class="key-fact-row">
+          <strong>${escapeHtml(item.term)}</strong>
+          <p>${escapeHtml(item.detail)}</p>
+        </article>
+      `
+        )
+        .join("")
+    : `<p class="keyfacts-empty">${escapeHtml(emptyText)}</p>`;
+}
+
+function renderKeyFactsView() {
+  const stats = keyFactsStats();
+  activeKeyFactsIndex = Math.min(activeKeyFactsIndex, keyFactsData.sections.length - 1);
+  const section = keyFactsData.sections[activeKeyFactsIndex];
+  const panicKey =
+    section.title.includes("Cathedral")
+      ? "Cathedral"
+      : section.title.includes("Wignacourt")
+        ? "Wignacourt"
+        : section.title.includes("Domus")
+          ? "Domus"
+          : "Catacombs";
+  const panicItem = keyFactsData.panic.find((item) => item.term.startsWith(panicKey));
+
+  return `
+    <section class="tool-view keyfacts-view">
+      <div class="tool-header">
+        <div>
+          <p class="eyebrow">Key Facts</p>
+          <h1>Important Dates & Figures</h1>
+          <p>Pick a place, then revise the dates, names and panic anchors without digging through full notes.</p>
+        </div>
+        <div class="tool-counter">${stats.dates} dates / ${stats.figures} figures</div>
+      </div>
+      <nav class="keyfacts-picker" aria-label="Choose key facts location">
+        ${keyFactsData.sections
+          .map(
+            (item, index) => `
+              <button class="${index === activeKeyFactsIndex ? "active" : ""}" data-keyfacts-section="${index}" type="button">
+                <strong>${escapeHtml(item.title)}</strong>
+                <span>${item.dates.length} dates / ${item.figures.length} figures</span>
+              </button>
+            `
+          )
+          .join("")}
+      </nav>
+      <section class="keyfacts-card">
+        <header>
+          <div>
+            <p class="eyebrow">${escapeHtml(section.title)}</p>
+            <h2>${section.dates.length} Dates, ${section.figures.length} Figures</h2>
+          </div>
+          ${
+            panicItem
+              ? `<article class="panic-strip"><strong>${escapeHtml(panicItem.term)}</strong><p>${escapeHtml(panicItem.detail)}</p></article>`
+              : ""
+          }
+        </header>
+        <div class="keyfacts-columns">
+          <div>
+            <h3>Dates</h3>
+            ${renderKeyFactsList(section.dates, "No dates listed yet.")}
+          </div>
+          <div>
+            <h3>Figures</h3>
+            ${renderKeyFactsList(section.figures, "No figures listed yet.")}
+          </div>
+        </div>
+      </section>
+      <details class="panic-memory">
+        <summary>Panic Memory List</summary>
+        <div class="panic-memory-grid">
+          ${keyFactsData.panic
+            .map(
+              (item) => `
+                <article class="key-fact-row">
+                  <strong>${escapeHtml(item.term)}</strong>
+                  <p>${escapeHtml(item.detail)}</p>
+                </article>
+              `
+            )
+            .join("")}
+        </div>
+      </details>
+    </section>
+  `;
+}
+
 function stopImages(site, index) {
   const manifestImages = window.studyMedia?.[site.id]?.[String(index + 1)];
   if (manifestImages?.length) {
@@ -1152,6 +1916,11 @@ function render() {
     return;
   }
 
+  if (activeView === "keyfacts") {
+    appView.innerHTML = renderKeyFactsView();
+    return;
+  }
+
   renderPlaceholder();
 }
 
@@ -1169,6 +1938,7 @@ document.addEventListener("click", (event) => {
   const guideStopButton = event.target.closest("[data-guide-stop]");
   const openStopButton = event.target.closest("[data-open-stop]");
   const jumpViewButton = event.target.closest("[data-jump-view]");
+  const keyFactsButton = event.target.closest("[data-keyfacts-section]");
   const siteButton = event.target.closest("[data-site]");
   const stopButton = event.target.closest("[data-stop]");
   const tabButton = event.target.closest("[data-tab]");
@@ -1197,6 +1967,12 @@ document.addEventListener("click", (event) => {
 
   if (jumpViewButton) {
     setView(jumpViewButton.dataset.jumpView);
+    return;
+  }
+
+  if (keyFactsButton) {
+    activeKeyFactsIndex = Number(keyFactsButton.dataset.keyfactsSection);
+    render();
     return;
   }
 

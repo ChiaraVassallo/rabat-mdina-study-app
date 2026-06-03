@@ -59,7 +59,8 @@ window.wignacourtFullNotes = {
         "The Collegio is slightly irregular because it had to adapt to the existing sacred site, underground spaces and surrounding fabric of Rabat. Rather than a perfect symmetrical palace, it is almost a cloister hidden behind the front of a Baroque palazzo.",
         "Useful historical timeline: Juan Benegas de Cordoba acquired the Grotto in 1607; the site passed to the Order in 1617; the building changed function after the Knights left in 1798; it was used for civic and wartime purposes under British rule; it opened as a museum in 1981 and later underwent restoration and redisplay.",
         "The site was transferred back to the Church in 1961, before the Collegiate Chapter of Rabat opened it as a museum in 1981.",
-        "Extra from Wignacourt Museum Notes: the Collegio facade is described as early Baroque and associated with Francesco Buonamici, while the staircase leading towards the Grotto is associated with Lorenzo Gafa."
+        "Extra from Wignacourt Museum Notes: the Collegio facade is described as early Baroque and associated with Francesco Buonamici, while the staircase leading towards the Grotto is associated with Lorenzo Gafa.",
+        "Guiding line: “This building is not just the entrance to a museum; it is the entrance to the story of how Malta turned the memory of St Paul into pilgrimage, prestige and identity.”"
       ]
     },
     {
@@ -156,7 +157,8 @@ window.wignacourtFullNotes = {
         "Important visitors include Fabio Chigi, later Pope Alexander VII, as well as modern popes such as John Paul II and Benedict XVI. These visits show that the Grotto remained important far beyond Rabat.",
         "A side chapel dedicated to the Blessed Sacrament was added in 1753, with works by Francesco Zahra.",
         "St Publius Chapel above/near the Grotto is also part of the Pauline complex: an earlier chapel existed in 1617, while the later chapel of around 1726 served as the main entrance to the Grotto. Its titular painting is by Mattia Preti, showing the Virgin and Child with St John the Baptist and St Publius.",
-        "The statue of St Paul in the Grotto was donated under Grand Master Pinto in 1744."
+        "The statue of St Paul in the Grotto was donated under Grand Master Pinto in 1744.",
+        "Guiding line: “What makes this grotto powerful is not only certainty, but tradition. For centuries, people believed holiness had touched this stone, and that belief helped shape Malta’s Christian identity.”"
       ]
     },
     {
@@ -202,7 +204,8 @@ window.wignacourtFullNotes = {
         "For St Trophimus, the local legend says he accompanied St Paul to Malta, although this may come from a misreading or confusion in the biblical tradition.",
         "The St Luke altar had an original wooden statue from the late 1600s or early 1700s; after 1919, a cement copy was made for display because the underground conditions were not ideal for the original.",
         "The catacombs connected with the site include 16 complexes in total, with features such as an agape table and a baldacchino-type tomb.",
-        "Extra underground context: the complex also includes a water cistern and catacomb areas, not only the Grotto and WWII shelters."
+        "Extra underground context: the complex also includes a water cistern and catacomb areas, not only the Grotto and WWII shelters.",
+        "Guiding line: “These altars bring together the writer of the story, the hero of the story, and a companion who reminds us that Christianity spread through human networks.”"
       ]
     },
     {
@@ -282,7 +285,8 @@ window.wignacourtFullNotes = {
         "The shelters also show social difference. Wealthier families could improve or privatise their rooms; poorer families often had only the simplest protection.",
         "This section can end by linking survival to Malta’s wider wartime story: long air raids, refugees moving inland, Rabat’s population increase, nearby Ta’ Qali as a target, and the importance of Malta’s endurance in 1942.",
         "When explaining the shelters, remember they form part of the museum's broader underground story together with the cistern and catacombs.",
-        "The underground shelters had around 50 rooms and could shelter up to around 400 people during air raids."
+        "The underground shelters had around 50 rooms and could shelter up to around 400 people during air raids.",
+        "Guiding line: “In the Grotto, people remembered St Paul surviving a shipwreck. In these shelters, Maltese families hoped to survive another storm: the storm of bombs.”"
       ]
     },
     {
@@ -333,7 +337,8 @@ window.wignacourtFullNotes = {
         "The ecclesiastical woodwork rooms and bells preserve material from different small churches, including churches that no longer survive or no longer use those objects.",
         "The corridor statue of St Paul was once located on the facade of St Paul's Church.",
         "Anton Agius was from Rabat and became one of Malta's best-known sculptors. His major public works include the Sette Giugno Monument, the Freedom Day Monument, and the monument to Dun Mikiel Xerri and his companions.",
-        "The ground-floor funerary collection includes an 18th-century catafalque and tubru, connected with older church funeral traditions."
+        "The ground-floor funerary collection includes an 18th-century catafalque and tubru, connected with older church funeral traditions.",
+        "Guiding line: “This floor reminds us that holiness also needed housekeeping. Behind the chapels, relics and paintings, someone had to cook, clean, store, repair and organise daily life.”"
       ]
     },
     {
@@ -365,6 +370,7 @@ window.wignacourtFullNotes = {
         "Maybe corruption of the word",
         "Stands out that's the number for is written as four \"i\"s rather than IV",
         "This one is gold but we do not know what it represents other colours meant:",
+        "Colour table: Black = Knights; Green = Merchants; Blue = Priests; Red = Local nobility.",
         "Usually had garden scenes or landscape views",
         "8 pointed cross - knights",
         "The staircase marks a change in status. The visitor moves from the service and working areas of the ground floor to the piano nobile, the more formal residential and representative level of the chaplains.",
@@ -376,7 +382,8 @@ window.wignacourtFullNotes = {
         "The Maltese clock can be treated as more than a timekeeping object. It was also a decorative object and status symbol involving carpentry, painting, gilding and clockmaking. Its local nickname and traditions around it are useful for showing how objects carry stories as well as functions.",
         "The first floor should be introduced as the former living quarters of the chaplains before moving into the more formal collection rooms.",
         "The organ is a mid-18th-century organ which originally belonged to Ta' Doni Church.",
-        "As visitors go up the stairs, note the paintings of St Elegius, Grand Master de Valette, St Roque and St Sebastian."
+        "As visitors go up the stairs, note the paintings of St Elegius, Grand Master de Valette, St Roque and St Sebastian.",
+        "Guiding line: “This landing is about patrons and collectors: the people who paid for, preserved and passed on the objects that allow us to tell this story today.”"
       ]
     },
     {
@@ -437,6 +444,7 @@ window.wignacourtFullNotes = {
         "Clothes - conventional chaplain, probably a prior (a senior ecclesiastical title for a monk or friar who leads a religious house known as a priory, or serves as the second-in-command to an abbot in an abbey)",
         "There and weird can make an educated guess of the time period.",
         "Grandmasters paintings:",
+        "Table: Hompesch | Cotoner; De Rohan | Carafa | Himenes.",
         "Most prominent Wignacourt",
         "3 pillars of the institution:",
         "Wignacourt",
@@ -444,6 +452,7 @@ window.wignacourtFullNotes = {
         "Pope Paul V (the 5th, info on him in the next room)",
         "Table with a 19th century ballot box",
         "Stone on top and inside there were three holes:",
+        "Table: Yes | Neutral | no.",
         "This would be used for an anonymous vote",
         "The room was likely used as an office",
         "This section is ideal for explaining that the Order of St John was not only a military order. It began with the care of poor and sick pilgrims in Jerusalem, while the military role developed later when protection became necessary.",
@@ -456,7 +465,8 @@ window.wignacourtFullNotes = {
         "Cosmana Navarra is important for female patronage. Women could not become knights, but through money, wills, foundations and donations they could shape religious life. Her portrait with plans for the church and her death mask are strong details for visitors.",
         "The paintings of the blessed and saints of the Order formed part of the original collection of the Collegio, so they are not just later museum decoration.",
         "The portraits of Wignacourt and Benegas in this room help tie together the two key figures behind the institutional development of the Grotto and Collegio.",
-        "The woollen Cappa Magna in the Chapter Hall is still used by the Canons of St Paul's Grotto."
+        "The woollen Cappa Magna in the Chapter Hall is still used by the Canons of St Paul's Grotto.",
+        "Guiding line: “This room shows us that devotion needs organisation. The Grotto had faith, but it also needed rules, meetings, money and administration.”"
       ]
     },
     {
@@ -483,7 +493,8 @@ window.wignacourtFullNotes = {
         "Silver objects such as chalices, ciboria, candlesticks, reliquaries and liturgical vessels were not just expensive decorative items. They were sacred tools used in contact with the Eucharist, relics or solemn ritual.",
         "The textiles also allow a mention of hidden female labour. Many church textiles were embroidered by cloistered nuns or women whose names were not always recorded, reminding visitors that women contributed greatly to the Church’s visual splendour even when institutions were male-led.",
         "The room also includes a chasuble connected with Pope Paul V, who was pope between 1605 and 1621 and is central to the Benegas story.",
-        "Among the vestments, remember to mention altar frontals and hand-embroidered pieces carrying the coats of arms of Grand Masters Pinto and Wignacourt."
+        "Among the vestments, remember to mention altar frontals and hand-embroidered pieces carrying the coats of arms of Grand Masters Pinto and Wignacourt.",
+        "Guiding line: “In Baroque worship, beauty was not decoration for its own sake. Beauty honoured God and moved the heart of the believer.”"
       ]
     },
     {
@@ -515,7 +526,8 @@ window.wignacourtFullNotes = {
         "The chalice holder includes a suspension mechanism to prevent spillage in rough seas. This practical detail is excellent for visitors because it immediately helps them imagine Mass being celebrated aboard a galley.",
         "The crucifix on the altar is among the treasures the Knights brought with them to Malta in 1530. It allows you to connect one object in the room to the wider journey of the Order across the Mediterranean.",
         "The portable galley altar is described in the museum notes as 17th century.",
-        "The Altar of Repose used to be set up in the Grotto during Holy Week, so it links the museum collection directly back to devotional practice in the underground sacred space."
+        "The Altar of Repose used to be set up in the Grotto during Holy Week, so it links the museum collection directly back to devotional practice in the underground sacred space.",
+        "Guiding line: “This room shows a faith that moves: through the streets during Holy Week and across the sea with the Knights.”"
       ]
     },
     {
@@ -546,7 +558,8 @@ window.wignacourtFullNotes = {
         "The rare stole of the Knights depicting scenes from the Passion of Christ helps connect the room’s theme of relic and Passion devotion with the Order of St John.",
         "The room also contains vernacular works. Even where artistic quality is modest, they are useful because they show popular devotion and the influence of major artists such as Mattia Preti on local religious imagery.",
         "These papal gifts help connect the older relic culture of Benegas and Pope Paul V with modern papal devotion to the Pauline site.",
-        "The room also includes the chair used by Pope Benedict XVI and a silver lamp donated by him to St Paul's Church during his visit."
+        "The room also includes the chair used by Pope Benedict XVI and a silver lamp donated by him to St Paul's Church during his visit.",
+        "Guiding line: “For us, this may look like a copy. For earlier pilgrims, it was a way of bringing the mystery of Christ’s Passion closer to home.”"
       ]
     },
     {
@@ -567,7 +580,8 @@ window.wignacourtFullNotes = {
         "Their artistic naivety is part of their value. They reveal the fears, hopes, illnesses, accidents and dangers experienced by ordinary people. They are historical testimonies of emotion, not just art objects.",
         "This is a good place to compare ex-votos with Ta’ Pinu, where similar objects tell stories of suffering, gratitude and personal devotion.",
         "The original chest remains in situ, protected in the alcove above the treasurer's head, making the security arrangement easier for visitors to visualise.",
-        "The Treasurer's Room also helps show the layout of the original cells used in the Collegio."
+        "The Treasurer's Room also helps show the layout of the original cells used in the Collegio.",
+        "Guiding line: “An ex-voto is like a thank-you note made visible: I was in danger, I prayed, I survived, and I came back to give thanks.”"
       ]
     },
     {
@@ -597,7 +611,8 @@ window.wignacourtFullNotes = {
         "The Crucifixion was intended to inspire piety, while the Virgin of Sorrows shows contained suffering and dignity. This makes the chapel a good place to discuss private prayer, emotion and meditation on the Passion.",
         "The corridor paintings of saints and blessed members of the Order can be linked back to Blessed Gerard. The Order began with care for sick and poor pilgrims before becoming associated with military defence.",
         "Raymond du Puy can be mentioned as the figure who helped formalise and militarise the Order, turning it into a community that combined hospital care with protection and defence.",
-        "The female saints and blessed women of the Order are important because they remind visitors that the Order’s history is not only male. Women contributed through nursing, religious life, patronage, donations and devotional example."
+        "The female saints and blessed women of the Order are important because they remind visitors that the Order’s history is not only male. Women contributed through nursing, religious life, patronage, donations and devotional example.",
+        "Guiding line: “The Order began with a hospital bed before it became associated with a sword.”"
       ]
     },
     {
@@ -623,7 +638,8 @@ window.wignacourtFullNotes = {
         "The Punic and Roman pottery and jugs link the museum back to ancient Melite. Rabat and Mdina were not marginal; they formed the centre of ancient urban Malta.",
         "The maps, coins and pottery are useful to show how the collection moves beyond the Pauline story into Malta's wider Mediterranean history.",
         "Some pottery items have unknown provenance, but one urn is especially memorable because it still contains cremated remains.",
-        "The antique book collection includes Jean Quintin's Insulae Melitae Descriptio and a 1562 copy of Henry VIII's Defence of the Seven Sacraments."
+        "The antique book collection includes Jean Quintin's Insulae Melitae Descriptio and a 1562 copy of Henry VIII's Defence of the Seven Sacraments.",
+        "Guiding line: “This room shows Malta in miniature: ancient, Christian, Mediterranean, European and always connected.”"
       ]
     },
     {
@@ -658,7 +674,8 @@ window.wignacourtFullNotes = {
         "The medallion by Alessandro Algardi showing the Beheading of St Paul links the museum to Roman Baroque sculpture. It was originally placed on one of the altars in the Grotto, where a copy now stands.",
         "The shoes of Fabio Chigi, later Pope Alexander VII, are a powerful small object: they turn a famous historical figure into a physical pilgrim who visited the Grotto and left a token of devotion.",
         "The sedan chair was specifically used for the sacred viaticum, the procession of the Blessed Sacrament to the sick, so it is both a status object and a religious object.",
-        "Also mention the ebony and ivory inlaid cabinet and the pharmacy jars, which broaden the room beyond paintings into elite material culture and everyday practices of medicine and storage."
+        "Also mention the ebony and ivory inlaid cabinet and the pharmacy jars, which broaden the room beyond paintings into elite material culture and everyday practices of medicine and storage.",
+        "Guiding line: “The sedan chair is not just furniture. It is class, comfort and inequality on two poles.”"
       ]
     },
     {
@@ -772,7 +789,8 @@ window.wignacourtFullNotes = {
         "Giuseppe Cali is especially memorable. His nickname, “the devil of the brush”, can be explained through the speed and confidence visible in his bozzetti. Some of his preparatory works relate to the dome of St Paul’s parish church in Rabat.",
         "Pianos or domestic musical objects can be linked with nineteenth-century middle-class and elite culture, where music represented refinement, education and social status.",
         "These rooms help bridge formal church art with more intimate devotional and teaching objects.",
-        "The 19th and 20th century rooms include wax groups as well as bozzetti, so they can be used to discuss different artistic techniques and preparatory practices."
+        "The 19th and 20th century rooms include wax groups as well as bozzetti, so they can be used to discuss different artistic techniques and preparatory practices.",
+        "Guiding line: “If the Baroque room tries to shake your soul, the nineteenth-century room tries to comfort it.”"
       ]
     },
     {
@@ -792,7 +810,8 @@ window.wignacourtFullNotes = {
         "The polyptych also proves that devotion to St Paul did not begin with the Knights. The Knights promoted and enriched the Pauline tradition, but the cult of St Paul was already part of Malta’s medieval and early modern religious identity.",
         "The room can also be linked to Byzantine works executed in the tempera-on-panel method.",
         "The museum notes place this work in the 16th Century Room rather than treating it only as a 20th-century object, so it is useful as a final highlight even if discussed near the end of the route.",
-        "The St Paul's Polyptych belonged to the church that preceded the present St Paul Collegiate Church and originally had eight panels."
+        "The St Paul's Polyptych belonged to the church that preceded the present St Paul Collegiate Church and originally had eight panels.",
+        "Guiding line: “We end where we began: with St Paul. First he was remembered in a cave; now he appears as the patron whose image helped shape Malta’s identity for centuries.”"
       ]
     }
   ]
