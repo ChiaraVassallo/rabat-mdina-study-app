@@ -609,10 +609,10 @@ window.studyMedia = {
       "media/wignacourt/11.2.jpg"
     ],
     "12": [
-      "media/wignacourt/12.0.jpg",
       "media/wignacourt/12.1.jpg"
     ],
     "13": [
+      "media/wignacourt/13.0.jpg",
       "media/wignacourt/13.1.jpg",
       "media/wignacourt/13.2.jpg",
       "media/wignacourt/13.3.jpg",
