@@ -95,7 +95,7 @@ const sites = [
       "Chapel of St Roque and Palazzo Santa Sophia",
       "Curvilinear street plan and rear views of noble houses",
       "Mesquita Square",
-      "Magazine Gate and Chapel of St Publius",
+      "Magazine Gate and Chapel of St Nicholas",
       "Greeks Square, Fortification Wall and Greeks Gate",
       "The Three Gate System: Outer Baroque Gate, Ditch and Gharreqin/Mtarfa/British Gate"
     ]
@@ -913,14 +913,16 @@ function stopContent(site, index) {
   const externalSummaries = {
     catacombs: window.catacombsSummaries,
     wignacourt: window.wignacourtSummaries,
-    cathedral: window.cathedralSummaries
+    cathedral: window.cathedralSummaries,
+    streets: window.streetsSummaries
   };
   const summary = stopNotes[site.id]?.[index] ?? externalSummaries[site.id]?.[index];
   const fullNotes = {
     catacombs: window.catacombsFullNotes,
     domus: window.domusFullNotes,
     wignacourt: window.wignacourtFullNotes,
-    cathedral: window.cathedralFullNotes
+    cathedral: window.cathedralFullNotes,
+    streets: window.streetsFullNotes
   };
   const full = fullNotes[site.id]?.stops?.[index] ?? null;
   if (!summary && !full) {
