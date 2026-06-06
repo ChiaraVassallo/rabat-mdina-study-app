@@ -1047,9 +1047,9 @@ window.streetsFullNotes = {
         "2/3rds of the island live there",
         "Talk about agriculture on the Maltese islands.",
         "Main three harbours",
-        "1. Valletta",
-        "2. Marsamxett",
-        "3. Birgu",
+        "1. Grand Harbour",
+        "2. Marsaxlokk",
+        "3. Marsamxett",
         "At time can see sicilian horizon from here, normally right before or after a storm, very clear skies.interesting thing to show",
         "Mosta, low land with big church and dome, big attraction knownnas mosta dome. Story of three bombs 9th april 1942, at 4:40pm.2 hit dome and fell in the square but did not set off, one fell through, bounced around but did kot set off nazi bomb",
         "Known as miracle church",
@@ -1064,6 +1064,15 @@ window.streetsFullNotes = {
         "Acqueduct started at dingli and went all the way to valletta. Accessed fresh water springs from the west of the island and managed to provide the city of valletta with water.",
         "Never had water ditches in malta, only dry watches",
         "On bastions do not go down from high steps, keep walking and go down from the hand rail",
+        "We are standing near the ramparts, the fortification walls of Mdina. Fortification walls were always designed according to the type of weaponry used during different historical periods. Every time a new weapon was invented, the defensive walls had to be refurbished and adapted to respond effectively to these new threats and continue protecting the city. The walls visible today mainly date back to the 17th and 18th centuries. Approximately 9,600 square metres of fortification walls surround Mdina, and their height varies depending on the area. In this section, the walls are about 47 metres high.",
+        "From this viewpoint, we are looking towards the south-eastern part of Malta, where the three major natural harbours of the island are located: the Grand Harbour, Marsaxlokk Harbour and Marsamxett Harbour. Around two-thirds of Malta?s population lives in this region, making it the most densely populated part of the island.",
+        "From the ramparts of Mdina, which is located in the centre of Malta, visitors can enjoy panoramic views of the Maltese countryside. Looking towards the left side, one can clearly see agricultural areas and fields that highlight the rural landscape surrounding Mdina. On particularly clear days, it is even possible to see the coast of Sicily in the distance. The viewpoint from Bastion Square is therefore considered one of the most scenic and important observation points in Malta.",
+        "From Bastion Square, visitors can also see the famous Mosta Dome, officially known as the Rotunda of Mosta. During the Second World War, on 9 April 1942, three bombs struck the church while around 300 people were attending Mass. Remarkably, none of the bombs exploded, and a major tragedy was avoided. Because of this extraordinary event, the church became known as the ?Miracle Church.?",
+        "The original bomb that entered the church was later disposed of for safety reasons, and the bomb displayed inside the church today is a replica. This event remains one of the most important wartime stories in Malta and continues to attract many visitors to the church.",
+        "These massive walls were intentionally built very high to prevent enemies from scaling them and invading the fortified city.",
+        "Casa Beaulieu, which means ?beautiful place,? is another important building in Mdina. This palazzo originally served as the Monastery of Santa Scolastica, meaning that it belonged to a religious order of nuns. During the 19th century, the building was transformed into a private residence. Its elegant architecture and historical importance make it one of the notable palaces within Mdina.",
+        "Another significant building is the House of the Treasurer, which is the only fully detached house in Mdina. Although historians are not completely certain about the origin of its name, it is believed that the residence once belonged to the Treasurer of the Order of Saint John. During the 1950s, the house was also owned by Lord Louis Mountbatten, who served as Chief Commander of the British Navy and was the uncle of Queen Elizabeth II.",
+        "?A city can survive without many things ? but not without water. During a siege, this well could mean the difference between survival and surrender.?",
         "Additional notes from latest set:",
         "• Vilhena’s overhaul of Mdina’s land-front fortifications was carried out with François de Mondion and formed part of the same 18th-century programme as the gate and palace.",
         "• The D’Homedes Bastion, dating to the mid-16th century, is an early example of an Italian-style bastion in Malta.",
@@ -1468,10 +1477,10 @@ window.streetsSummaries = {
     "exam": "Key anchors: St Dorothy?s Convent, Casa Depiro, Palazzo Sant Manduca, convent, residence, smaller-scale heritage."
   },
   "9": {
-    "notice": "Ramparts and Bastion Square reconnect the route to defence and views: walls, bastions and the experience of Mdina as a fortified hill city.",
-    "background": "The ramparts are both military architecture and one of the clearest ways to understand Mdina?s position in the landscape.",
-    "script": "Invite people to look outward. Explain that the city?s elevated setting and bastions were practical defensive tools, but today they also help visitors understand why Mdina controlled the surrounding countryside visually.",
-    "exam": "Remember: ramparts, bastions, elevated position, views, defence, strategic control."
+    "notice": "Ramparts and Bastion Square are the panoramic defence stop: 17th- and 18th-century walls, harbour views, countryside, Mosta Dome and key nearby houses.",
+    "background": "The ramparts explain how Mdina?s walls changed with weaponry while also giving one of Malta?s clearest views across the south-east, the natural harbours and the surrounding countryside.",
+    "script": "Stand at the viewpoint and link the height of the walls to defence: weapons changed, so walls had to adapt. Then turn the view into memory anchors: Grand Harbour, Marsaxlokk, Marsamxett, agricultural land, possible Sicily views, Mosta Dome and its 9 April 1942 bomb story, plus Casa Beaulieu and the House of the Treasurer.",
+    "exam": "Remember: 9,600 square metres of walls, about 47 metres high here, 17th-18th-century walls, three harbours, two-thirds population in the south-east region, Sicily on clear days, Mosta Dome miracle 9 April 1942, Casa Beaulieu, House of the Treasurer, Lord Louis Mountbatten."
   },
   "10": {
     "notice": "Casa del Tesoriere and Palazzo Falson bring the route into high-status domestic architecture and museum-house memory.",
@@ -1687,12 +1696,17 @@ window.studyMedia = {
     "5": [
       "media/streets-mdina/5.0.jpg",
       "media/streets-mdina/5.1.jpg",
-      "media/streets-mdina/5.2.jpg"
+      "media/streets-mdina/5.2.jpg",
+      "media/streets-mdina/5.3.jpg",
+      "media/streets-mdina/5.4.jpg",
+      "media/streets-mdina/5.5.jpg"
     ],
     "6": [
       "media/streets-mdina/6.0.jpg",
       "media/streets-mdina/6.2.jpg",
-      "media/streets-mdina/6.3.jpg"
+      "media/streets-mdina/6.3.jpg",
+      "media/streets-mdina/6.4.jpg",
+      "media/streets-mdina/6.5.jpg"
     ],
     "7": [
       "media/streets-mdina/7.1.jpg",
@@ -1706,7 +1720,8 @@ window.studyMedia = {
     ],
     "9": [
       "media/streets-mdina/9.0.jpg",
-      "media/streets-mdina/9.2.jpg"
+      "media/streets-mdina/9.2.jpg",
+      "media/streets-mdina/9.3.jpg"
     ],
     "10": [
       "media/streets-mdina/10.1.jpg",
