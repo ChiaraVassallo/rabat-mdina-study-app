@@ -7,7 +7,7 @@ const sites = [
     summary:
       "A museum route connecting St Paul's Grotto, the crypt, wartime shelters and the Wignacourt collection.",
     tags: ["Museum", "Grotto", "Order"],
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Wignacourt%20Museum%20Rabat%20Malta.jpg",
+    image: "media/wignacourt/1.0.jpg",
     stops: [
       "Introduction to The Wignacourt Museum - Facade and Entrance Hall",
       "St Paul's Grotto",

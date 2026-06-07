@@ -5,6 +5,8 @@ window.catacombsFullNotes = {
     "Once you learn one temple you learn how to guide at all of them: same for catacombs",
     "The builds on Classical and Medieval theory class, based on the assumption that we know.",
     "Core books:",
+    "Bonanno, A. & Cilia, D. (2005). Malta: Phoenician, Punic and Roman. Malta: Midsea Books.",
+    "Dalli, C. (2006). Malta: The Medieval Millennium. Malta: Midsea Books.",
     "Anecdotes narrative etc will come from readings.",
     "She will provide us with all the information and we must be able to select accordingly to what group there is in front of you.",
     "------------------------------------------------------------"
@@ -12,10 +14,12 @@ window.catacombsFullNotes = {
   "stops": {
     "0": {
       "title": "General Introduction to the Catacombs",
+      "sourceHeading": "1. General Introduction to the Catacombs",
       "paragraphs": [
         "[Visitors centre Room 1 - TVP Poster Plan - talk about how the site developed - excavations, discoveries, site size, type and number of tombs/ burials]",
         "Entrance",
         "We are standing at the outskirts of Melite. The ditch and walls ended around the area of St Paul's Church. Santa Rita Street marks the area of fortification; the wall of the old Roman Citadel.",
+        "A standard Phoenician-Punic tradition was to have clearly defined necropolises that stood apart from major residential and administrative settlements. This separation is physically marked in Rabat by a substantial defensive ditch that isolated the urban residential areas from the vast burial grounds.",
         "Area undermined with tombs : we are standing on a necropolis - a city of dead.",
         "These have been sectioned example St Paul's (owned by the state), St Agatha's (owned by the missionaries (check exact name of these)), private ones, a cluster belonging to Wignacourt museum etc.",
         "Under most houses in Rabat there are tombs; some are used, some not, some are even wine cellars. Certain tunnels are walled off as they keep going under private houses.",
@@ -93,6 +97,7 @@ window.catacombsFullNotes = {
     },
     "1": {
       "title": "An elite man's funeral procession",
+      "sourceHeading": "2. An elite man's funeral procession",
       "paragraphs": [
         "[Visitors' centre Room 2 - TVPs wall poster - funerary artefacts display cabinets]",
         "Exhibit Room",
@@ -170,6 +175,7 @@ window.catacombsFullNotes = {
     },
     "2": {
       "title": "Inhumations and Cremations",
+      "sourceHeading": "3. Inhumations and Cremations",
       "paragraphs": [
         "Showcases around the room:",
         "[Visitors' centre Room 2 - TVPs mock tomb - showcases displaying crematory pots and tomb markers]",
@@ -177,7 +183,7 @@ window.catacombsFullNotes = {
         "Horse statuettes found in tombs - one interpretation = child's toys",
         "Loom weights",
         "Coin - placed in mouth of deceased to pay passage to the ferry man",
-        "Charon is the mythological Greek ferryman who transports souls of the deceased across the rivers Styx and Acheron to the Underworld.",
+        "Charon is the mythological Greek ferryman who transports souls of the deceased across the rivers Styx and Acheron to the Underworld.",
         "From <https://www.google.com/search?q=ferryman+charon&oq=ferryman+sharon&gs_lcrp=EgZjaHJvbWUqCQgBEAAYDRiABDIGCAAQRRg5MgkIARAAGA0YgAQyCQgCEAAYDRiABDIICAMQABgNGB4yCAgEEAAYDRgeMggIBRAAGA0YHjIICAYQABgNGB4yCAgHEAAYDRgeMgoICBAAGAoYFhgeMgoICRAAGAUYDRge0gEINDU4NmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8>",
         "Amphorae",
         "Typical shaft & chamber tomb - Punic origins",
@@ -232,6 +238,9 @@ window.catacombsFullNotes = {
         "• Class Distinctions - The Rich: Wealthier people could be buried in richly carved sarcophagi made of marble, stone, terracotta, lead or even wood.",
         "• Class Distinctions - The Poor: Poorer people could be carried on a cheap bier, called a sandapilla, and placed directly in simple trench graves, or fossae, usually fully extended.",
         "• Grave Goods: Tombs could contain oil lamps, horse statuettes, possibly children’s toys, loom weights and other personal or symbolic objects.",
+        "Mithra was a solar deity and the central figure of a \"mystery cult\" that flourished in the Roman world, including Malta, between the first century BC and the fourth century AD. He was perceived as the defender of good and the destroyer of evil, as well as the keeper of truth, in whose name contracts and agreements were sworn. As a divinity, he was believed to govern life-giving waters and the abundance of nature.",
+        "In the late Punic-Roman tombs of Rabat, a small number of figurines were found which show a caped figure on horseback, unmistakable depictions of Mithra. In addition, figurines of cockerels (Figure 8.5, no. 2) also have been found in a few Rabat tombs – one together with a figurine of Mithra on horseback – which are likely relics of the cult.",
+        "In Mithraic belief, the cockerel was the herald of the dawn that chased away demons. In one instance, a cockerel figurine was found in the same tomb as the figurine of Mithra on horseback",
         "• The Obol: A coin could be placed in the mouth or between the teeth of the deceased to pay Charon, the mythological ferryman, for safe passage across the River Styx.",
         "• Tomb Markers: Markers called sema helped proclaim the identity of the deceased and ensured that the dead were not forgotten.",
         "Additional YouTube notes to add",
@@ -248,7 +257,8 @@ window.catacombsFullNotes = {
       ]
     },
     "3": {
-      "title": "Garden + Social Pavillion + Archaeology Pavillion",
+      "title": "Garden, Social Pavilion and Archaeology Pavilion",
+      "sourceHeading": "4. Garden + Social Pavillion + Archaeology Pavillion",
       "paragraphs": [
         "Outside Garden",
         "Hawn hekk sparat tigri so mghandix idea xintqal, pero hemm:",
@@ -272,7 +282,8 @@ window.catacombsFullNotes = {
       ]
     },
     "4": {
-      "title": "Main Complex",
+      "title": "Main Complex - loculi - staircase",
+      "sourceHeading": "5. Main Complex",
       "paragraphs": [
         "(include info on size of site and development) – loculi - Staircase [talk about loculi and infant mortality]",
         "No1. Complex",
@@ -306,7 +317,8 @@ window.catacombsFullNotes = {
       ]
     },
     "5": {
-      "title": "Tables and Apses [Funerary Triclinia]",
+      "title": "Tables and Apses: Funerary Triclinia",
+      "sourceHeading": "6. Tables and Apses [Funerary Triclinia]",
       "paragraphs": [
         "Talk about the Roman funerary meal, called a ‘silicernium’",
         "In the open space downstairs",
@@ -343,9 +355,58 @@ window.catacombsFullNotes = {
       ]
     },
     "6": {
-      "title": "Burials",
+      "title": "Burials and different types of tombs found in Malta",
+      "sourceHeading": "7. Burials",
       "paragraphs": [
         "– talk about burial rites and the different types of tombs found in Malta [TVPS the Arcosolium – floor tombs - Window Tombs etc.]",
+        "Chiara Speech:",
+        "Burials - talk about burial rites and the different types of tombs found in Malta",
+        "TVPS - the Arcosolium, floor tombs, window tombs etc.",
+        "Death is one of the most intriguing aspects of life. Since the beginning of mankind, death has wrapped itself in all kinds of deep mysteries because of this simple fact: dead people do not come back to tell the living something about death.",
+        "This attitude, that is, the feeling of hopelessness and lack of understanding when it comes to the mysterious nature of death, cuts throughout all peoples, cultures and time - people from every culture, religious affiliation, and race has struggled to understand the mystery of death. One way that people attempted to cope with death was in the burial rituals.",
+        "Romans also practiced post-funeral rites and services that were rendered to the dead, basically performed by their family members:",
+        "For the citizens of Melite, death was not a sudden exit, but a highly choreographed \"business of passing.\"",
+        "In Late Antiquity, death was a high-stakes performance. To the Romans of Melite, the transition was a bridge that required precise navigation to ensure the soul—the psychē—did not become a restless \"in-between\" spirit. They called this the psychorrhagêma, the perceived struggle of the soul to detach from its \"prison,\" the body.",
+        "If death was not sudden, a citizen followed six sacred steps: first, the ritual bath of the dying; second, the committal of children to the care of the family; third, the settling of worldly affairs; fourth, a prayer to Hestia; fifth, a prayer for safe passage to Hades; and finally, a farewell to family and friends. At the moment of the final exhale, the nearest relative would lean in close to catch the dying person's last breath with a kiss, physically capturing the soul as it departed.",
+        "Once the breath was caught, the \"business\" became physical. A coin—an obol—was placed in the mouth to pay Charon the ferryman. Coin - placed in mouth of deceased to pay passage to the ferry man",
+        "Charon is the mythological Greek ferryman who transports souls of the deceased across the rivers Styx and Acheron to the Underworld.",
+        "No coin, no crossing — at least in mythology.",
+        "it seems even in antiquity, transport fees applied.",
+        "Fossores - were grave diggers",
+        "Used pick and axe",
+        "By time, gained status, like a construction company. The elite would hire them to build more tombs for them.",
+        "Collegiata of elite families would contact the fossores.",
+        "Here, social class was inescapable. If you were wealthy, you were handled by professional undertakers. If you were poor, your journey was swifter.",
+        "We standing in a realm carved from the \"live rock\"—our local globigerina limestone. This soft, honey-colored stone was a gift to the ancient stone-masons, allowing them to expand this complex. As you walk through these passageways, notice the texture of the walls; you can still see the rhythmic tool marks of the fossores, the ancient grave-diggers.",
+        "If you look closely at the walls, you can still see their tool marks — frozen movements from nearly two millennia ago.",
+        "They had a map of the tombs; allowed foreigners travelling here to pay their respects",
+        "the Romans practiced class differences even on the treatment of their dead",
+        "Wall & floor tombs - cheapest burials: lower part of the elite",
+        "Loculi",
+        "Loculi are side graves hewn in the side walls. Most of these were meant for children and babies. At times many of these are found near each other and very near to a parent tomb, denoting that they belong to the same family.",
+        "large amount found, shows high child mortality rate, possibly even at childbirth",
+        "The most vulnerable; young and old.",
+        "In the St. Agatha complex alone, there are over 500 graves, and the heartbreaking reality is that the vast majority were for children. These tiny slots were often carved right next to the parents’ tombs, ensuring the family stayed together.",
+        "Contrary to standard practice in the Italian and North African cemeteries, where it is the most common tomb-type, the Maltese loculus was first and foremost a child’s burial arrangement. It is, as a matter of fact, characterised by its small size, and a considerable number of loculi were quite obviously intended for new born children. Less than twenty adult loculi have, as a matter of fact been identified.",
+        "Window tomb",
+        "The most common Maltese tomb-type is the window-tomb.",
+        "Its name was coined in 1911 by the German archaeologist E. Becker, but its uniqueness and interest were only adequately highlighted in 1949 by Padre A. Ferrua S.J. of the Istituto Pontificio di Archeologia Christiana",
+        "Small window-like entrance to a usually oval burial chamber; located 80-100cm above floor level; often features rock-cut pillows or head-rests.",
+        "frequently found in clusters suggesting family use.",
+        "Window graves are very similar to the arcosolium, except that the back is flat within the vault. The entrance is also similar to the previous one. - what was the previous one chiara?",
+        "In the countryside this is, in most cases, the exclusive tomb-type. So called because of its ‘window’-entrance to a usually oval chamber, the tomb seems to be essentially Maltese and is, in many ways, a Late Roman re-interpretation of the burial chamber of the Romano-Punic tomb, the essential idiosyncrasies of which it managed to retain. The ‘window’ is located ca. 80 cm to 100 cm above floor level and is often cut at the back of an apsed recess that may be decorated with crisply carved corner pilasters and, on rarer occasions, with a scallop-shell motif.",
+        "Floor tomb or forma",
+        "Down here on the ground, we have the Floor Tombs, or Forma. These are standard graves cut directly into the floor. Interestingly, in the Jewish sections of these hypogea, these were often re-used as ossuaries—basically a stone filing cabinet for a collection of bones from multiple people",
+        "Arcosolium",
+        "The arcosolium is so called on account that at the entrance of the tomb, it has an arch and a sill (L. solium). Such graves are cut within the side walls. The back of the arch is a sort of half a dome. The entrance to these graves is through a square opening about 45 cm each side, while the grave is hidden by the wall.",
+        "In spite of its indebtedness to Sicily, the Maltese arcosolium has idiosyncrasies of its own. It is, to start with, never deeply tunnelled into the rock face and it generally contains only two, or at times, three burial-troughs. The largest known example, at St Paul Catacombs, has six troughs, but this is an exception to the general rule.",
+        "The arcosolium was generally a more prestigious burial type. The arched niche created a visual focal point — almost like a framed monument for the deceased.",
+        "Very frequently, one can notice many small niches cut in the side walls. These were used to hold an oil lamp to light the whereabouts. Many niches still bear soot marks.",
+        "Conclusion:",
+        "\"The silence of the catacombs speaks volumes about the universal human need to remember, to honor, and to feast with those we have lost. \"",
+        "So, as we walk through these halls, remember: this wasn't just a place of mourning. It was a carefully designed city, where the architecture of the tombs reflected the lives, the status, and the families of those who lived in Melite nearly two thousand years ago.",
+        "do remember to mind your head—the limestone is ancient, but the modern world is much less forgiving.",
+        "Thank you for journeying through the underworld with me.",
         "Acrosolium in front of the agape - shows feasting was a great deal",
         "Tables indicate some kind of offering or feasting.",
         "We have no evidence but, comparing to example Pompei, however, they are still similar.",
@@ -383,6 +444,7 @@ window.catacombsFullNotes = {
     },
     "7": {
       "title": "Baldacchino and Saddleback Tombs",
+      "sourceHeading": "8. Baldacchino and Saddleback Tombs",
       "paragraphs": [
         "Talk about elite burials",
         "Very rich important Tombs",
@@ -420,7 +482,8 @@ window.catacombsFullNotes = {
       ]
     },
     "8": {
-      "title": "The crypt",
+      "title": "The crypt and Christianity in Malta",
+      "sourceHeading": "9. The crypt",
       "paragraphs": [
         "[Part of the catacombs were reutilised during the re-Christianisation of the Island, around the 13th century - an underground early Christian place of worship] – talk about Christianity in Malta",
         "We then walked back to the rock cut church.",
@@ -453,7 +516,8 @@ window.catacombsFullNotes = {
       ]
     },
     "9": {
-      "title": "Jewish Hypogea",
+      "title": "Jewish Hypogea, Rituals, Conservation and Architecture Pavilions",
+      "sourceHeading": "10. Jewish Hypogea",
       "paragraphs": [
         "Rituals, Conservation and architecture pavilions",
         "Western Sections",
