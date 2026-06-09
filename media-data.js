@@ -1643,6 +1643,10 @@ window.studyMedia = {
       "media/wignacourt/5.9.jpg"
     ],
     "6": [
+      "media/wignacourt/6.01.jpg",
+      "media/wignacourt/6.02.jpg",
+      "media/wignacourt/6.03.jpg",
+      "media/wignacourt/6.04.jpg",
       "media/wignacourt/6.1.jpg",
       "media/wignacourt/6.3.jpg"
     ],
